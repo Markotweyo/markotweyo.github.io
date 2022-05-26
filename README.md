@@ -13,7 +13,8 @@ To get a local copy up and running follow these simple example steps.
 - Go to the [repository page](https://github.com/Markotweyo/my-portfolio.git)
 - Click on code and copy the link
 - Go to command line and type git clone  [https://github.com/Markotweyo/my-portfolio.git](https://github.com/Markotweyo/my-portfolio.git)
-##- Github @Markotweyo
+##  Authors
+- Github [Markotweyo](https://github.com/Markotweyo)
 ## Contributing
 Contribution, issues, and feature requests are welcome
 Feek free to check the issues page
