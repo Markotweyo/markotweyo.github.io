@@ -1,5 +1,5 @@
 # My-Portfolio
-# Project Name
+# Project Description
 My Portfolio Project is basic web app to showcase my skills, experince and projects that I have done. The website is made with HTML/CSS and linters to improve code quality. The project can be used as a template for static web app projects that implement github workflows
 ## Built With
 - HTML/CSS
@@ -12,7 +12,7 @@ My Portfolio Project is basic web app to showcase my skills, experince and proje
 To get a local copy up and running follow these simple example steps.
 - Go to the [repository page](https://github.com/Markotweyo/my-portfolio.git)
 - Click on code and copy the link
-- Go to command line and type git clone  https://github.com/Markotweyo/my-portfolio.git
+- Go to command line and type git clone  [https://github.com/Markotweyo/my-portfolio.git](https://github.com/Markotweyo/my-portfolio.git)
 ##- Github @Markotweyo
 ## Contributing
 Contribution, issues, and feature requests are welcome
