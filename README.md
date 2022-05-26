@@ -17,7 +17,7 @@ My Portfolio Project is basic web app to showcase my skills, experince and proje
 To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
-Install NodeJs
+Make sure NodeJs is installed
 ### Setup
 git clone https://github.com/Markotweyo/my-portfolio.git
 
