@@ -188,7 +188,158 @@ body {
   right: 10px;
 }
 
-.project-button :hover {
+.project-button:hover {
   background: #6070ff;
   color: #fff;
+}
+
+.about-myself {
+  background: #fff;
+  margin: 12px 8px;
+  padding: 24px;
+}
+
+.skill-top {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.button {
+  width: 162px;
+  height: 48px;
+  top: calc(50% - 48px / 2 + 180.5px);
+  margin: 24px 0;
+}
+
+.get-resume-button {
+  display: inline-block;
+  width: 130px;
+  height: 48px;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  align-items: center;
+  line-height: 24px;
+  color: #396df2;
+  cursor: pointer;
+}
+
+.get-resume-button:hover {
+  background: #6070ff;
+  color: #fff;
+}
+
+.skill-list {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  margin: 12px 8px;
+  color: #344563;
+  right: 70px;
+}
+
+.skills-list_frame {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.language-container {
+  display: flex;
+  height: 72px;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+  font-style: 500;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.language-container img {
+  padding: 8px;
+  right: 26px;
+}
+
+.languages {
+  display: inline-block;
+  position: relative;
+}
+
+.language_items li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 66.72px;
+  background: #f7f7f9;
+  margin: 12px 0;
+  border-radius: 8px;
+}
+
+.tags ul li {
+  position: relative;
+  list-style: none;
+  display: inline-block;
+  background: #ebebff;
+  border-radius: 8px;
+  color: #6070ff;
+  right: 40px;
+}
+
+.language_items img {
+  margin-left: 10px;
+  
+}
+
+.language_items a {
+  text-decoration: none;
+  pointer-events: none;
+  margin: 0;
+  z-index: 1;
+  display: block;
+  margin-left: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+}
+
+.framework-container {
+  display: flex;
+  height: 72px;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+  font-style: 500;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.framework-container img {
+  padding: 12px;
+  right: 26px;
+  border-radius: 8px;
+}
+
+.skills-container {
+  display: flex;
+  height: 72px;
+  align-items: center;
+  justify-content: space-between;
+  color: #000;
+  font-style: 500;
+  font-size: 20px;
+  line-height: 20px;
+}
+
+.skills-container img {
+  padding: 12px;
+  right: 26px;
+  border-radius: 8px;
 }
