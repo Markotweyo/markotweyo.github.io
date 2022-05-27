@@ -68,3 +68,127 @@ body {
   text-decoration: none;
   margin: 8px;
 }
+
+.works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 2650px;
+  padding: 114px 24px;
+}
+
+.card-works {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  position: static;
+  width: 327px;
+  height: 612px;
+  left: calc(50% - 327px / 2);
+  top: 100px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
+  border-radius: 16px;
+  margin: 40px 0;
+}
+
+.snapshoot-portfolio {
+  height: 220px;
+  margin: 12px 0;
+}
+
+.portfolio-snapshoot {
+  border-radius: 8px;
+}
+
+.left-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  width: 295px;
+  height: 288px;
+  left: 16px;
+  top: 248px;
+  margin: 12px 0;
+}
+
+.project-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #344563;
+}
+
+.summary-frame {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+}
+
+.client {
+  margin-right: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;
+}
+
+.role {
+  margin-right: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.year {
+  margin-right: 10px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.project-description p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.tags {
+  display: flex;
+  flex-direction: row;
+}
+
+.project-button {
+  position: relative;
+  display: inline-block;
+  padding: 12px;
+  width: 130px;
+  height: 48px;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background: #fff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  align-items: center;
+  line-height: 24px;
+  color: #396df2;
+  margin: 10px;
+  cursor: pointer;
+  right: 10px;
+}
+
+.project-button :hover {
+  background: #6070ff;
+  color: #fff;
+}
