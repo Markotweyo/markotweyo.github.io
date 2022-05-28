@@ -59,10 +59,31 @@ body {
   margin: 0 8px;
 }
 
+.language_items li {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  height: 66.72px;
+  width: 300px;
+  background: #f7f7f9;
+  margin: 12px 0;
+  border-radius: 8px;
+}
+
 .social-media-icons {
   height: 30px;
-  display: flex;
+  flex-direction: row;
   margin: 8px;
+}
+
+.social-media-icons ul {
+  padding: 0;
+}
+
+.social-media-icons ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 0;
 }
 
 .social-media-icons a {
@@ -77,53 +98,48 @@ body {
 
 .works {
   display: grid;
-  flex-direction: column;
-  align-items: center;
-  height: 2550px;
-  padding: 114px 24px;
+  background: #e5e5e5;
+  height: 3050px;
+  padding: 114px 12px;
 }
 
 .card-works {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 16px;
-  width: 327px;
-  height: 630px;
-  left: calc(50% - 327px / 2);
+  height: 700px;
   top: 100px;
   background: #fff;
   border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
-  margin: 30px 0;
+  margin: 12px 12px;
 }
 
 .snapshoot-portfolio {
   height: 220px;
-  margin: 12px 0;
+  margin: 16px 16px;
 }
 
 .portfolio-snapshoot {
   border-radius: 8px;
-}
-
-.left-block {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  padding: 0;
-  width: 295px;
-  height: 288px;
-  left: 16px;
-  top: 248px;
   margin: 12px 0;
 }
 
+.left-block {
+  padding: 0;
+  height: 300px;
+  left: 16px;
+  top: 248px;
+  margin: 12px 16px;
+}
+
 .project-title {
+  display: flex;
+  font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  color: #344563;
+  font-size: 32px;
+  color: #172b4d;
+  line-height: 44px;
 }
 
 .summary-frame {
@@ -173,9 +189,6 @@ body {
 }
 
 .project-button {
-  position: relative;
-  display: inline-block;
-  padding: 12px;
   width: 130px;
   height: 48px;
   border: 1px solid #6070ff;
@@ -184,13 +197,12 @@ body {
   background: #fff;
   font-style: normal;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 17px;
   align-items: center;
   line-height: 24px;
   color: #396df2;
-  margin: 0 10px;
   cursor: pointer;
-  right: 10px;
+  margin: 6px 0;
 }
 
 .project-button:hover {
@@ -239,19 +251,19 @@ body {
 }
 
 .skill-list {
-  position: relative;
   display: flex;
   flex-direction: column;
-  padding: 16px;
-  margin: 12px 8px;
+  align-items: flex-start;
+  margin: 8px 8px;
+  padding: 8px;
   color: #344563;
-  right: 70px;
 }
 
 .skills-list_frame {
   list-style: none;
   display: flex;
   flex-direction: column;
+  padding: 0;
 }
 
 .language-container {
@@ -278,16 +290,6 @@ body {
   padding: 0;
 }
 
-.language_items li {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  height: 66.72px;
-  background: #f7f7f9;
-  margin: 12px 0;
-  border-radius: 8px;
-}
-
 .tags ul li {
   position: relative;
   list-style: none;
@@ -297,6 +299,11 @@ body {
   color: #6070ff;
   right: 40px;
   padding: 6px 8px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
 }
 
 .language_items img {
