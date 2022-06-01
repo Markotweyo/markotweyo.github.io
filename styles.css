@@ -364,7 +364,8 @@ body {
   display: flex;
   background: url("./images/contact-form-shapes-mobile.svg") no-repeat;
   background-color: #6070ff;
-  height: 779px;
+  height: 850px;
+  background-position: 175px 21px;
 }
 
 .contact-me-container {
@@ -378,7 +379,7 @@ body {
   line-height: 52px;
   align-items: center;
   text-align: center;
-  color: #ffffff;
+  color: #fff;
   margin-top: 75px;
 }
 
@@ -388,6 +389,29 @@ body {
   font-size: 20px;
   line-height: 28px;
   color: #ebebff;
+  align-items: center;
+}
+
+.contact-form {
+  margin-right: 20px;
+}
+
+.contact-form input {
+  height: 48px;
+  width: 327px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  padding: 2px 4px;
+}
+
+.contact-form textarea {
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  width: 327px;
+  height: 150px;
+  border-radius: 8px;
+  padding: 6px 4px;
 }
 
 .get-in-touch {
@@ -405,4 +429,6 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: #6070ff;
+  cursor: pointer;
+  border: none;
 }
