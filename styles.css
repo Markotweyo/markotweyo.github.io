@@ -185,8 +185,8 @@ body {
   color: #344563;
 }
 
-.tags ul li + li {
-  float: right;
+.tags  {
+  float: left;
   /* display: flex;
   flex-direction: row; */
 }
