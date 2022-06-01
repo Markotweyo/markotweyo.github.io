@@ -444,3 +444,8 @@ body {
   cursor: pointer;
   border: none;
 }
+
+.get-in-touch:hover {
+  background: #0d0f5b;
+  color: #fff;
+}
