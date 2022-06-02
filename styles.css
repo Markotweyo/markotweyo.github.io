@@ -446,6 +446,10 @@ body {
 }
 
 .get-in-touch:hover {
+  color: #6070ff;
   background: #0d0f5b;
-  color: #fff;
+}
+
+.get-in-touch:active {
+  color: #2230d2;
 }
