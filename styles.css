@@ -24,9 +24,41 @@ body {
   margin: 12px 8px;
 }
 
+.menu-items {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .menu-items {
+    display: flex;
+    list-style: none;
+    margin-right: 70px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .menu-items li {
+    margin-right: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .menu-items li a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    display: flex;
+    align-items: center;
+    text-align: center;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .menu-icon {
-    //display: none;
+    display: none;
   }
 }
 
@@ -34,12 +66,20 @@ body {
   background: url("./images/header-shapesmobile.svg") no-repeat center center;
   background-size: 100% 100%;
   height: 100%;
-  padding: 114px 24px;
+  padding: 100px 24px;
   display: flex;
   flex-direction: column;
 }
 
-
+@media screen and (min-width: 768px) {
+  .headline {
+    background: url("./images/Header-bg.svg") no-repeat center center;
+    background-size: 90% 90%;
+    background-position: 120px -100px;
+    padding: 120px 200px;
+    height: 670px;
+  }
+}
 
 .name h1 {
   display: flex;
@@ -52,14 +92,39 @@ body {
   margin: 12px 8px;
 }
 
+@media screen and (min-width: 768px) {
+  .name h1 {
+    width: 920px;
+    height: 122px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.37px;
+    color: #091e42;
+  }
+}
+
 .description p {
   font-weight: 400;
   font-size: 16px;
   color: #344563;
-  align-items: center;
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
   margin: 12px 8px;
+}
+
+@media screen and (min-width: 768px) {
+  .description p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #344563;
+  }
 }
 
 .socialmedia {
@@ -115,7 +180,6 @@ body {
 
 @media screen and (min-width: 768px) {
   .works {
-    //height: 496px;
     padding: 50px 12px;
   }
 }
@@ -146,9 +210,9 @@ body {
 }
 
 @media screen and (min-width: 768px) {
- .snapshoot-portfolio {
-  height: 448px;
- }
+  .snapshoot-portfolio {
+    height: 448px;
+  }
 }
 
 .portfolio-snapshoot {
@@ -158,9 +222,10 @@ body {
 
 @media screen and (min-width: 768px) {
   .portfolio-snapshoot {
-   height: 350px;
+    height: 350px;
   }
- }
+}
+
 .left-block {
   padding: 0;
   height: 300px;
@@ -265,9 +330,9 @@ body {
   .skill-top {
     flex: 2;
     margin: 12px;
-    
   }
 }
+
 .username {
   color: #172b4d;
   font-style: normal;
@@ -282,18 +347,15 @@ body {
   .username {
     margin: 8px 8px;
     width: 447px;
-    
   }
 }
 
 @media screen and (min-width: 768px) {
   .description {
     display: flex;
-    width: 447px;
     flex-wrap: wrap;
   }
 }
-
 
 .get-resume-button {
   display: inline-block;
@@ -340,7 +402,6 @@ body {
   padding: 0;
 }
 
-
 .language-container {
   display: flex;
   height: 72px;
@@ -374,7 +435,6 @@ body {
 @media screen and (min-width: 768px) {
   .language_items {
     display: flex;
-    
   }
 }
 
@@ -415,11 +475,11 @@ body {
 @media screen and (min-width: 768px) {
   .language_items li {
     display: flex;
-    flex-direction:column;
-    height:100px;
+    flex-direction: column;
+    height: 100px;
     width: 100px;
     margin: 12px;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     gap: 10px;
   }
@@ -472,21 +532,19 @@ body {
     display: flex;
     background: url("./images/contact-form-background-shapes.svg") no-repeat;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     background-color: #6070ff;
-    
+    background-size: 90% 80%;
+    background-position: 100px -10px;
   }
 }
 
 @media screen and (min-width: 768px) {
   .contact-me-container {
-    
     width: 1290.66px;
     height: 750.7px;
-    
   }
 }
-
 
 .contact-me-container {
   margin: 24px;
@@ -495,12 +553,11 @@ body {
 @media screen and (min-width: 768px) {
   .contact-me-container {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 801px;
     height: 577px;
-    
   }
 }
 
