@@ -20,9 +20,6 @@
                 <a href="/index.html">Mark</a>
             </div>
             <nav class="icon-menu">
-                <div class="menu-icon">
-                    <img src="./images/menu.svg" alt="menu icon" class="nav-icon" />
-                </div>
                 <ul class="menu-items">
                     <li class="portfolio">
                         <a href="#portfolio" class="">Portfolio</a>
@@ -30,11 +27,27 @@
                     <li class="about-me">
                         <a href="#about-me" class="">About</a>
                     </li>
-                    <li class="Contact">
+                    <li class="contact">
                         <a href="#contact" class="">Contact</a>
                     </li>
                 </ul>
             </nav>
+            <div class="menu-icon" id="hamburger-icon" onclick="toggleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <ul class="mobile-menu">
+                    <li class="portfolio">
+                        <a href="#portfolio" class="">Portfolio</a>
+                    </li>
+                    <li class="about-me">
+                        <a href="#about-me" class="">About</a>
+                    </li>
+                    <li class="contact">
+                        <a href="#contact" class="">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </header>
         <section class="headline">
             <div class="name">
@@ -71,7 +84,7 @@
                 </ul>
             </div>
         </section>
-        <section class="works">
+        <section class="works" id="portfolio">
             <div class="card-works">
                 <div class="snapshoot-portfolio">
                     <img src="./images/portfolio-snapshot.svg" alt="" class="portfolio-snapshoot" />
@@ -193,7 +206,7 @@
                 </div>
             </div>
         </section>
-        <section class="about-myself">
+        <section class="about-myself" id="about-me">
             <div class="skill-top">
                 <div class="name">
                     <h2 class="username">About Myself</h2>
@@ -270,7 +283,7 @@
                 </ul>
             </div>
         </section>
-        <section class="contact-me">
+        <section class="contact-me" id="contact">
             <footer class="contact-me-container">
                 <h2 class="contactme-header">Contact me</h2>
                 <p class="">
@@ -295,5 +308,6 @@
             </footer>
         </section>
     </main>
+    <script src="index.js"></script>
 </body>
 </html>
