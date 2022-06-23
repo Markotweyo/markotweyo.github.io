@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -24,8 +30,57 @@ body {
   margin: 12px 8px;
 }
 
+.menu {
+  margin: 0;
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 99;
+  background: #6070ff;
+  mix-blend-mode: multiply;
+  color: white;
+  list-style: none;
+  padding-top: 4rem;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  opacity: 10;
+  backdrop-filter: blur(8px);
+}
+
+.menu li {
+  margin: 8px;
+  padding: 8px;
+}
+
+.hamburger {
+  position: fixed;
+  z-index: 100;
+  top: 0.5rem;
+  right: 1.6rem;
+  padding: 4px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: #6070ff;
+}
+
+.hamburger i:nth-child(2) {
+  display: none;
+  color: white;
+}
+
+.showMenu {
+  transform: translateY(0);
+}
+
 .menu-items {
   display: none;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -51,9 +106,18 @@ body {
     line-height: 20px;
     color: #344563;
     display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
   }
+}
+
+.menuItem {
+  text-decoration: none;
+}
+
+.menuItem:hover {
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 768px) {
@@ -515,6 +579,21 @@ body {
   font-size: 15px;
   line-height: 20px;
   color: #253858;
+}
+
+.menu li a {
+  color: #fff;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  display: flex;
+  align-items: center;
+}
+
+.menu-items li a:hover {
+  color: #6070ff;
+  text-decoration: underline;
 }
 
 @media screen and (min-width: 768px) {
