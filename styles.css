@@ -70,7 +70,7 @@ align-items: center;
 
 
 
-/* .hamburger {
+.hamburger {
   position: fixed;
   z-index: 100;
   top: 1rem;
@@ -80,11 +80,11 @@ align-items: center;
   background: white;
   cursor: pointer;
   
-} */
+}
 
-/* .hamburger i:nth-child(2) {
+.hamburger i:nth-child(2) {
   display: none;
-} */
+}
 
 .showMenu {
   transform: translateY(0);
