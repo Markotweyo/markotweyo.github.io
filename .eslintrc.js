@@ -11,7 +11,7 @@ module.exports = {
   },
   extends: ['airbnb-base'],
   rules: {
-    'linebreak-style': 0,
+    'linebreak-style': ['error', 'windows'],
     'no-shadow': 'off',
     'no-param-reassign': 'off',
     'eol-last': 'off',
