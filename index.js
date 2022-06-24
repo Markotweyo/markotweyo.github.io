@@ -27,7 +27,7 @@ menuItems.forEach(
 
 // form validation
 
-const form = document.querySelector('contact-form');
+const form = document.getElementById('form_id');
 const clientName = document.getElementById('fname'); // get the name
 const email = document.getElementById('email'); // get the email
 const messageType = document.querySelector('.errorMessage'); // get the message
