@@ -877,7 +877,7 @@ body {
   color: #344563;
 }
 
-/* .live-btn {
+.live-btn {
   width: 100%;
   display: flex;
   gap: 10px;
@@ -899,4 +899,4 @@ body {
   height: 48px;
   border: 1px solid #6070ff;
   border-radius: 8px;
-} */
+}
