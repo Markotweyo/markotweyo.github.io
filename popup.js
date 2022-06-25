@@ -2,37 +2,37 @@ const mainPopup = document.querySelector('#main-popup');
 const childPopup = document.querySelector('#child-popup');
 
 const cards = [{
-  title: 'Tonic',
-  image: './images/portfolio-snapshot.svg',
-  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-  languages: ['html', 'css', 'javascript'],
-  seeLive: 'See live',
-  seeSource: 'See Source',
-},
-{
-  title: 'Multi-Post Stories',
-  image: './images/availability.svg',
-  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-  languages: ['html', 'css', 'javascript'],
-  seeLive: 'See live',
-  seeSource: 'See Source',
-},
-{
-  title: 'Tonic',
-  image: './images/yoga.svg',
-  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-  languages: ['html', 'css', 'javascript'],
-  seeLive: 'See live',
-  seeSource: 'See Source',
-},
-{
-  title: 'Multi-Post Stories',
-  image: './images/professional-art-printing.svg',
-  description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
-  languages: ['html', 'css', 'javascript'],
-  seeLive: 'See live',
-  seeSource: 'See Source',
-},
+        title: 'Tonic',
+        image: './images/portfolio-snapshot.svg',
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+        languages: ['html', 'css', 'javascript'],
+        seeLive: 'See live',
+        seeSource: 'See Source',
+    },
+    {
+        title: 'Multi-Post Stories',
+        image: './images/availability.svg',
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+        languages: ['html', 'css', 'javascript'],
+        seeLive: 'See live',
+        seeSource: 'See Source',
+    },
+    {
+        title: 'Tonic',
+        image: './images/yoga.svg',
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+        languages: ['html', 'css', 'javascript'],
+        seeLive: 'See live',
+        seeSource: 'See Source',
+    },
+    {
+        title: 'Multi-Post Stories',
+        image: './images/professional-art-printing.svg',
+        description: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent",
+        languages: ['html', 'css', 'javascript'],
+        seeLive: 'See live',
+        seeSource: 'See Source',
+    },
 
 ];
 
@@ -43,22 +43,22 @@ const card4 = document.querySelector('#card4');
 
 // remove the popup
 function cancelPopup() {
-  mainPopup.classList.remove('popup');
-  childPopup.classList.remove('conatiner-popup');
-  mainPopup.style.display = 'none';
+    mainPopup.classList.remove('popup');
+    childPopup.classList.remove('conatiner-popup');
+    mainPopup.style.display = 'none';
 }
 
 function cardDisplay(index) {
-  const {
-    title,
-    image,
-    description,
-    languages,
-    seeLive,
-    seeSource,
-  } = cards[index];
+    const {
+        title,
+        image,
+        description,
+        languages,
+        seeLive,
+        seeSource,
+    } = cards[index];
 
-  childPopup.innerHTML = `
+    childPopup.innerHTML = `
           <nav>
            <h3>${title}</h3>
                <a href="#"><img src="images/cancelIcon.svg"" onclick="cancelPopup()" > </a>
@@ -96,25 +96,36 @@ function cardDisplay(index) {
          </div>
      </section>`;
 
-  // add button active
-  mainPopup.classList.add('popup');
-  childPopup.classList.add('container-popup');
-  mainPopup.style.display = 'block';
+    // add button active
+    mainPopup.classList.add('popup');
+    childPopup.classList.add('container-popup');
+    mainPopup.style.display = 'block';
 }
 
 // call the designed class after the user click on it
 
 card1.addEventListener('click', () => {
-  cardDisplay(0);
+    cardDisplay(0);
 });
 card2.addEventListener('click', () => {
-  cardDisplay(1);
+    cardDisplay(1);
 });
 card3.addEventListener('click', () => {
-  cardDisplay(2);
+    cardDisplay(2);
 });
 card4.addEventListener('click', () => {
-  cardDisplay(3);
+    cardDisplay(3);
 });
 
 mainPopup.addEventListener('click', cancelPopup);
+
+
+
+//storing data on the browser
+
+function dataStorage() {
+    const formData = {
+        userName:
+    }
+    localStorage.set('data', JSON.stringify(formData))
+}
