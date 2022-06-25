@@ -118,14 +118,3 @@ card4.addEventListener('click', () => {
 });
 
 mainPopup.addEventListener('click', cancelPopup);
-
-
-
-//storing data on the browser
-
-function dataStorage() {
-    const formData = {
-        userName:
-    }
-    localStorage.set('data', JSON.stringify(formData))
-}
